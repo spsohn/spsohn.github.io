@@ -1,0 +1,70 @@
+h1 {
+    font-family:"Arial Black", Gadget, sans-serif;
+    text-align:center;
+    font-size: 35px;
+}
+
+h2 {
+    font-family:Impact, Charcoal, sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family:Impact, Charcoal, sans-serif;
+}
+
+p {
+    font-family:"Cambria", Times, serif;
+    text-align:center;
+    font-size: 21px;
+}
+
+body {
+    text-align:center;
+    background-color:Thistle;
+    margin: 20px 20px 20px 20px;
+}
+
+img {
+    max-width: 40%;
+    max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*{
+    Box-sizing: border-box;
+}
+.column {
+    Float: left;
+    Width: 33.33%;
+    Padding: 3px;
+}
+.column img{
+    Height: 300 px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+}
+
+a:link {
+    background-color: Thistle;
+    color: black;
+    border: 2px solid silver;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: silver;
+    color: white;
+}
+
+    
